@@ -1,0 +1,10 @@
+@import "./mixin";
+.loading {
+  @include flex-box();
+  margin-top: 4rem; 
+}
+
+.loading img {
+  height: auto !important;
+  width: auto !important;  
+}
